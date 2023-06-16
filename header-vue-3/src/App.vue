@@ -1,18 +1,16 @@
 <script>
 import HeaderApp from './components/HeaderApp.vue'
+
 export default{
-  name:"AppHeader"
+  components: {HeaderApp}
 }
 
 </script>
 
-<template>
-  <div>
-    
-  </div>
+<template>  
   <HeaderApp/>
 </template>
 
 <style>
-@import url(./assets/styles/general.scss);
+/* @import url(./assets/styles/general.scss); */
 </style>
